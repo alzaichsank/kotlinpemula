@@ -11,7 +11,7 @@ fun main() {
         if (number % 2 == 0) continue
 
         // TODO 2
-        if (number > 15) continue
+        if (number > 15) break
 
         // TODO 3
         val result = number * ( number + 10)
